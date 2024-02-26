@@ -35,4 +35,12 @@ if res == None:
 else:
   print(res)
 
+# approach5
+n=int(input())
+a=list(map(int,input().split()))
+x = int(input())
+for i in range(n):
+  if x == a[i]:
+    print(i)
+    break
 
